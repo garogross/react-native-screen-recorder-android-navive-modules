@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/floatView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/rounded_corners"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <View
+                android:id="@+id/editBtn"
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:layout_gravity="center"
+                android:background="@drawable/pen_button"
+                android:orientation="horizontal"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="14px" />
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="8dp" />
+
+            <View
+                android:id="@+id/stopBtn"
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:background="@drawable/round_button_red"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="8dp" />
+
+            <View
+                android:id="@+id/closeBtn"
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:layout_gravity="center"
+                android:background="@drawable/cross_button"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="14px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reactLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill_vertical"
+            android:orientation="vertical"
+            >
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+export const drawIcon = "drawIcon"
+export const eraserIcon = "eraserIcon"
+export const undoIcon = "undoIcon"
+export const resetIcon = "resetIcon"
+export const textIcon = "textIcon"
